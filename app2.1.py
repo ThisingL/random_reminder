@@ -11,7 +11,6 @@ if sys.platform.startswith("win"):
     os.system("chcp 65001 > nul")
     # 设置环境变量
     os.environ["PYTHONIOENCODING"] = "utf-8"
-
 # 版本号：2.1
 # 算是最完善的一版了，适配了不同的操作系统，包括macOS、Linux和Windows
 # 优化了进度条显示
